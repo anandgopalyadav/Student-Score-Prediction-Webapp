@@ -1,7 +1,7 @@
 """
 Student Score Prediction using Linear Regression
 
-This project predicts a student's score percentage based on hours studied
+This project predicts a student's score percentage based on hours studied 
 using Simple Linear Regression.
 
 Features:
