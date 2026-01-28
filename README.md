@@ -80,12 +80,12 @@ Student-Score-Prediction/
 
 ## ✅ Installation & Setup
 
-### 1️⃣ Clone the repository
+**Clone the repository**
 ```bash
 git clone https://github.com/your-username/Student-Score-Prediction.git
 cd Student-Score-Prediction
 
-2️⃣ Install required libraries
+** Install dependencies **
 pip install -r requirements.txt
 
 ▶️ Run the Flask Web App
@@ -122,10 +122,16 @@ Where:
 m = slope (coefficient)
 c = intercept
 
-👨‍🎓 Author
+## 👤 Author
 
-Anand Yadav
-Student | Learning Data Science & Machine Learning 🚀
+**Anand Gopal Yadav**
+📧 Email: [anandgopal2001@gmail.com](mailto:anandgopal2001@gmail.com)
+🔗 LinkedIn: [https://www.linkedin.com/in/anand-gopal-yadav-223964178](https://www.linkedin.com/in/anand-gopal-yadav-223964178)
+🐙 GitHub: [https://github.com/anandgopalyadav](https://github.com/anandgopalyadav)
+
+---
+
+⭐ If you found this project interesting, feel free to star the repository!
 
 📜 License
 This project is licensed under the MIT License.
