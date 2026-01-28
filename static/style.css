@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 60px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.success {
+    background: #e6ffed;
+    border: 1px solid #2ecc71;
+}
+
+.error {
+    background: #ffe6e6;
+    border: 1px solid #e74c3c;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 13px;
+    color: gray;
+}
+
+.chart-box {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
+.chart-box h2 {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.chart-box img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}

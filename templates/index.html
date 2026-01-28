@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student Score Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 Student Score Prediction</h1>
+        <p>Enter study hours and get the predicted score percentage.</p>
+
+        <form method="POST">
+            <label for="hours">Hours Studied (0 to 20):</label>
+            <input
+                type="text"
+                name="hours"
+                id="hours"
+                placeholder="Example: 7.5"
+                value="{{ hours_value }}"
+                required
+            />
+            <button type="submit">Predict Score</button>
+        </form>
+
+        {% if prediction is not none %}
+            <div class="result success">
+                ✅ Predicted Score: <strong>{{ prediction }}%</strong>
+            </div>
+        {% endif %}
+
+        {% if error %}
+            <div class="result error">
+                ❌ {{ error }}
+            </div>
+        {% endif %}
+
+        <div class="chart-box">
+            <h2>📊 Study Hours vs Score</h2>
+            <img src="data:image/png;base64,{{ graph_img }}" alt="Study vs Score Graph" />
+        </div>
+
+        <footer>
+            <p>Made by Anand Yadav 🚀</p>
+        </footer>
+    </div>
+</body>
+</html>
