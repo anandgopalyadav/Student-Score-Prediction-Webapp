@@ -133,16 +133,7 @@ outputs/predictions.csv
 <img width="700" height="860" alt="image" src="https://github.com/user-attachments/assets/8c634d16-95a3-4c2b-ae35-c078d5975338" />
 <img width="688" height="869" alt="image" src="https://github.com/user-attachments/assets/58303053-1862-423d-8740-806774dfe94b" />
 
-Yello point is the prediction score
-
-
-
-Example:
-```md
-![Home Page](screenshots/home.png)
-![Prediction Output](screenshots/result.png)
-![Graph Output](screenshots/graph.png)
-```
+Yellow point is the prediction score
 
 ---
 
